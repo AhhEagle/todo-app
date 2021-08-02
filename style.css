@@ -156,6 +156,11 @@ select {
   font-size: small;
 }
 
+.search-container{
+  display: flex;
+    justify-content: center;
+}
+
 /* Transition */
 /*
   .select:hover::after {

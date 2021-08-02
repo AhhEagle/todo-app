@@ -22,9 +22,13 @@
     <header>
         <h1> TODO APP </h1>
     </header>
-    <form>
+<div class="search-container">
+       
+<input id="search-box" type="text" placeholder="search" class="search-todo" />
+</div>
+    <form id="todoForm" onsubmit="return false">
         <input type="text" class="todo-input" />
-        <button class="todo-button" type="submit">
+        <button class="todo-button">
             <i class="fas fa-plus-square"></i>
         </button>
         <div class="select">
@@ -34,10 +38,8 @@
               <option value="uncompleted">Uncompleted</option>
             </select>
         </div>
-        <input id="search-box" type="text" placeholder="search" class="search-todo" />
-
-        </div>
     </form>
+    
     
     <div class="todo-container">
         <ul class="todo-list"></ul>
